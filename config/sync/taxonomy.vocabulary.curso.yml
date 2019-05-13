@@ -1,0 +1,9 @@
+uuid: 38690db6-56e4-4964-9ae9-1bb84c9bd0e4
+langcode: en
+status: true
+dependencies: {  }
+name: Curso
+vid: curso
+description: 'Ciclos de los cursos'
+hierarchy: 0
+weight: 0

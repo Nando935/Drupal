@@ -1,0 +1,22 @@
+uuid: fe08b0a7-a025-4ef7-beac-622fd3bbf4fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.titulo_del_libro
+  module:
+    - text
+id: node.titulo_del_libro.body
+field_name: body
+entity_type: node
+bundle: titulo_del_libro
+label: 'Descripción '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

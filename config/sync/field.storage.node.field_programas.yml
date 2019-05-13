@@ -1,0 +1,23 @@
+uuid: f824c6e8-2fd7-405f-8302-0e54153a234d
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_programas
+field_name: field_programas
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 4
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

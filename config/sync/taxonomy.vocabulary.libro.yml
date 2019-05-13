@@ -1,0 +1,9 @@
+uuid: 7ead0e5b-88a7-4f93-a966-5aa08b056f6c
+langcode: en
+status: true
+dependencies: {  }
+name: Libro
+vid: libro
+description: 'Libro físico o digital, dependiendo de la edición '
+hierarchy: 0
+weight: 0

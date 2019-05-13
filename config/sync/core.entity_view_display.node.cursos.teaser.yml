@@ -1,0 +1,30 @@
+uuid: cac3f1f3-78ff-4d59-a613-39f2a66db5bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cursos.body
+    - node.type.cursos
+  module:
+    - text
+    - user
+id: node.cursos.teaser
+targetEntityType: node
+bundle: cursos
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

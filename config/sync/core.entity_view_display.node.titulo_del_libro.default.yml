@@ -1,0 +1,38 @@
+uuid: 6f7f376d-8247-4add-bfa6-054f44ec6f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.titulo_del_libro.body
+    - field.field.node.titulo_del_libro.field_programas
+    - node.type.titulo_del_libro
+  module:
+    - file
+    - text
+    - user
+id: node.titulo_del_libro.default
+targetEntityType: node
+bundle: titulo_del_libro
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_programas:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

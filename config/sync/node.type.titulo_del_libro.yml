@@ -1,0 +1,18 @@
+uuid: 5cd18f15-05b8-4c7a-92f9-5a77f300e28c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Título del libro'
+type: titulo_del_libro
+description: 'Titulo del libro que se desea agregar'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

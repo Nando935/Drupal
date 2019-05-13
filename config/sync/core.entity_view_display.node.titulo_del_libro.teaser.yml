@@ -1,0 +1,30 @@
+uuid: 7fbb5c10-98d0-4c8c-a058-25992ce09021
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.titulo_del_libro.body
+    - node.type.titulo_del_libro
+  module:
+    - text
+    - user
+id: node.titulo_del_libro.teaser
+targetEntityType: node
+bundle: titulo_del_libro
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
