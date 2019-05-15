@@ -1,0 +1,19 @@
+uuid: a5b39f5e-aa46-45a2-95b0-24296ae23c98
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_descripcion_libro
+field_name: field_descripcion_libro
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

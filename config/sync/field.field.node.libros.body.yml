@@ -1,0 +1,22 @@
+uuid: 2e1ea022-e7b6-4e38-b428-0475f2f2dfac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.libros
+  module:
+    - text
+id: node.libros.body
+field_name: body
+entity_type: node
+bundle: libros
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

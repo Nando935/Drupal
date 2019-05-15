@@ -1,0 +1,9 @@
+uuid: da6ce0e8-6adf-4391-b4bc-85ad0bfd1f31
+langcode: en
+status: true
+dependencies: {  }
+name: 'Generos literarios'
+vid: generos_literarios
+description: 'Tipos de historias que relatan los libros'
+hierarchy: 0
+weight: 0

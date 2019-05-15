@@ -1,0 +1,21 @@
+uuid: 6ed40fca-ef95-442f-baca-f2ef3eee1010
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_libro
+    - node.type.libros
+  module:
+    - text
+id: node.libros.field_descripcion_libro
+field_name: field_descripcion_libro
+entity_type: node
+bundle: libros
+label: 'Descripción libro'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
