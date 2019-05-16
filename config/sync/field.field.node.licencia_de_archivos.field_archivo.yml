@@ -1,0 +1,28 @@
+uuid: 79eb717f-5704-49dc-9c8a-df55036d68bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo
+    - media.type.licencia
+    - node.type.licencia_de_archivos
+id: node.licencia_de_archivos.field_archivo
+field_name: field_archivo
+entity_type: node
+bundle: licencia_de_archivos
+label: Archivo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      licencia: licencia
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

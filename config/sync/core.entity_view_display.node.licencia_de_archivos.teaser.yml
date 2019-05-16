@@ -1,0 +1,30 @@
+uuid: d7aff2ae-6dc0-4759-bf34-927c7ea26e27
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.licencia_de_archivos.body
+    - node.type.licencia_de_archivos
+  module:
+    - text
+    - user
+id: node.licencia_de_archivos.teaser
+targetEntityType: node
+bundle: licencia_de_archivos
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

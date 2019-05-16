@@ -1,0 +1,13 @@
+uuid: 54895264-0b36-4e2a-88bb-9d4fcd24aa83
+langcode: en
+status: true
+dependencies: {  }
+id: licencia
+label: Archivos
+description: 'Archivos '
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file_1
+field_map: {  }

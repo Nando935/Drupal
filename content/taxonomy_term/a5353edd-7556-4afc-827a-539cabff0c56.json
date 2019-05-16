@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/licencias"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/licencias\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 15
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a5353edd-7556-4afc-827a-539cabff0c56"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "licencias"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Uso privativo",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>De pago<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>De pago<\/p>",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/licencias\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-16T21:17:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

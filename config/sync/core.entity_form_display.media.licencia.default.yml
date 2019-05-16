@@ -1,0 +1,44 @@
+uuid: 70cc5956-e687-4dd5-ae82-581359601b32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.licencia.field_licencia
+    - field.field.media.licencia.field_media_file_1
+    - media.type.licencia
+  module:
+    - file
+id: media.licencia.default
+targetEntityType: media
+bundle: licencia
+mode: default
+content:
+  field_licencia:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_media_file_1:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  status: true
+  uid: true

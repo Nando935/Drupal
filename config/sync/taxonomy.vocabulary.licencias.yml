@@ -1,0 +1,9 @@
+uuid: 7b73f370-690c-4cb4-82ae-8fe1a0440a6d
+langcode: en
+status: true
+dependencies: {  }
+name: Licencias
+vid: licencias
+description: 'Licencias de contenido '
+hierarchy: 0
+weight: 0

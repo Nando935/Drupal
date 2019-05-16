@@ -1,0 +1,27 @@
+uuid: 1e6509e2-7bfa-4005-9eef-00093db6bdae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file_1
+    - media.type.licencia
+  module:
+    - file
+id: media.licencia.field_media_file_1
+field_name: field_media_file_1
+entity_type: media
+bundle: licencia
+label: File
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

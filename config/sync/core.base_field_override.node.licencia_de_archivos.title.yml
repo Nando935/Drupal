@@ -1,0 +1,18 @@
+uuid: 5a5610f2-2926-42a1-b4f5-87374433dd34
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.licencia_de_archivos
+id: node.licencia_de_archivos.title
+field_name: title
+entity_type: node
+bundle: licencia_de_archivos
+label: 'Nombre del archivo'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

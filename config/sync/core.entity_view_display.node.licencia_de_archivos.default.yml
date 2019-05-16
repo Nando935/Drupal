@@ -1,0 +1,47 @@
+uuid: 26c4d076-9732-4ed6-a38c-089e168914c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.licencia_de_archivos.body
+    - field.field.node.licencia_de_archivos.field_archivo
+    - field.field.node.licencia_de_archivos.field_licencia
+    - node.type.licencia_de_archivos
+  module:
+    - text
+    - user
+id: node.licencia_de_archivos.default
+targetEntityType: node
+bundle: licencia_de_archivos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_archivo:
+    type: entity_reference_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_licencia:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

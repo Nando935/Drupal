@@ -1,0 +1,29 @@
+uuid: 4497aa7e-c08f-48f9-a916-eda59be1081d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_licencia
+    - node.type.licencia_de_archivos
+    - taxonomy.vocabulary.licencias
+id: node.licencia_de_archivos.field_licencia
+field_name: field_licencia
+entity_type: node
+bundle: licencia_de_archivos
+label: Licencia
+description: "\r\nTipo de licencia"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencias: licencias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

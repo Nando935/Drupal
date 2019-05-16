@@ -1,0 +1,22 @@
+uuid: d3129f96-043a-45cb-ab60-36a613f20267
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.licencia_de_archivos
+  module:
+    - text
+id: node.licencia_de_archivos.body
+field_name: body
+entity_type: node
+bundle: licencia_de_archivos
+label: 'Descripcion del archivo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
